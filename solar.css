@@ -1,0 +1,217 @@
+.container0{
+   position: relative;
+   width: 470px;
+   height: 470px;
+   margin-right: 50px;
+   margin-bottom: 50px;
+}
+.sun{
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+     background: radial-gradient(circle, #ffff99,#ffcc00,#ff8c00);
+     box-shadow: 
+        0 0 20px #ffcc00,
+        0 0 40px #ff9900,
+        0 0 60px #ff6600;
+}
+.mercury-orbit{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 3s linear infinite;
+
+}
+.mercury{
+    width: 8px;
+    height:8px ;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    background: radial-gradient(circle , #d3d3d3,#808080);
+    box-shadow: 0 0 6px #a9a9a9;
+}
+
+.venus-orbit{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 5s linear infinite;
+}
+.venus{
+    width: 12px;
+    height:12px ;
+    border-radius: 50%;
+    background-color: #e6c27a;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 8px #daa520;
+    background: radial-gradient(circle, #f5deb3,#daa520);
+}
+
+.earth-orbit{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 7s linear infinite;
+}
+.earth{
+    width: 13px;
+    height:13px ;
+    border-radius: 50%;
+    background-color: #1e90ff;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    background: radial-gradient(circle, #4facfe, #0066cc);
+    box-shadow: 0 0 12px #1e90ff;
+}
+
+.mars-orbit{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 9s linear infinite;
+}
+.mars{
+    width: 10px;
+    height:10px ;
+    border-radius: 50%;
+    background-color: #cd5c5c;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 8px #cd5c5c;
+    background: radial-gradient(circle, #ff7f50, #b22222);
+}
+
+.jupitar-orbit{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 11s linear infinite;
+   
+}
+.jupitar{
+    width: 30px;
+    height:30px ;
+    border-radius: 50%;
+    background-color:  #d2b48c;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+     background: radial-gradient(circle, #f4af60,#cd853f);
+     box-shadow: 0 0 10px #d2b48c;
+}
+
+.saturn-orbit{
+    width:370px;
+    height: 370px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 13s linear infinite;
+}
+.saturn{
+    width: 25px;
+    height:25px ;
+    border-radius: 50%;
+    background-color: #f4d03f;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 12px #f4d03f;
+    background: radial-gradient( circle, #f7dc6f, #d4ac0d);
+}
+
+.uranus-orbit{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 15s linear infinite;
+}
+.uranus{
+    width: 20px;
+    height:20px ;
+    border-radius: 50%;
+    background-color:  #7fffd4;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    background: radial-gradient(circle, #afeeee,#40e0d0);
+    box-shadow: 0 0 12px #7fffd4;
+}
+
+.naptune-orbit{
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: rotate 17s linear infinite;
+}
+.naptune{
+    width: 17px;
+    height:17px ;
+    border-radius: 50%;
+    background-color: #4169E1;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 12px #4169e1;
+    background: radial-gradient(circle,#87cefa,#0000cd);
+}
+
+
+@keyframes rotate{
+  from{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  to{
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
