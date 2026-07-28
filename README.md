@@ -5,7 +5,7 @@ click on link to privew this repo :  https://mayank-dubey-19.github.io/Space-too
 
 📸 screenshots :-
 
-<table cellspacing="5" cellpadding="10px" >
+<table cellspacing="5" cellpadding="10px" border="3" >
   <tr>
     <td><img width="1845" height="932" alt="image" src="https://github.com/user-attachments/assets/306a6d46-9b8d-48be-b993-21d949ccfb04" />
 </td>
